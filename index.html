@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Carta Animada Elegante</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container" role="main">
+    <div class="envelope" tabindex="0" aria-label="Carta para Doña Ojitos">
+      <div class="flap"></div>
+      <div class="seal" aria-hidden="true">
+        <div class="wax"></div>
+        <span>✉</span>
+      </div>
+      <div class="recipient">Para: Doña Ojitos 💌</div>
+    </div>
+
+    <div class="big-letter hidden" role="dialog" aria-modal="true" aria-label="Carta abierta con dedicatoria">
+      <div class="content" tabindex="0">
+        <h1>Querida Doña Ojitos,</h1>
+        <p>
+          Esta hoja es testigo de mi admiración y cariño.<br />
+          Espero que estes bien tanto en los estudios como por los TTS.<br />
+          Pero....... porque no me hablas desaparecida.
+          Aun tenemos una conversacion pendiente claro si no le incomoda.
+        </p>
+        <p><em>Con respeto, tu admirador secreto Doña Ojitos </em></p>
+      </div>
+      <button class="close-btn" aria-label="Cerrar carta">KG</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
